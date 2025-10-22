@@ -9,13 +9,13 @@ body {
     display: flex;
     align-items: center;
     cursor: pointer;
-    padding: 10px 0px 10px 10px; /* Sesuaikan padding, tambahkan ke sisi kanan */
+    padding: 10px 0px 10px 10px; 
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin: 10px 0; /* Adjust margin */
+    margin: 10px 0; 
     transition: all 0.3s ease;
     background-color: #fff;
-    width: 100%; /* Set width to full */
+    width: 100%; 
 }
 
 .navbar {
@@ -27,13 +27,13 @@ body {
 }
 
 .nav-link {
-    color: white; /* Set text color to white */
+    color: white; 
     text-decoration: none;
     font-size: 16px;
 }
 
 .nav-link:hover {
-    color: #ccc; /* Change text color on hover */
+    color: #ccc; 
 }
 
 .navdiv {
@@ -47,7 +47,7 @@ body {
 }
 
 .username {
-    color: white; /* Set text color to white */
+    color: white; 
     font-size: 16px;
     margin-left: 15px;
 }
@@ -172,12 +172,13 @@ body {
     }
 }
 
-/* Added CSS for Flex Container and Half-Width Inputs */
+
 .flex-container {
     display: flex;
     justify-content: space-between;
 }
 
 .half-width {
-    width: calc(50% - 10px); /* 10px is for the margin between elements */
+    width: calc(50% - 10px); 
+
 }
